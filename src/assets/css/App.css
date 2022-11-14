@@ -4,6 +4,10 @@
   height: 100vh;
 }
 
+.vh-20{
+  height: 20vh;
+}
+
 .center{
   display: flex;
   flex-direction: column;
@@ -13,6 +17,10 @@
 
 .d-flex{
   display: flex;
+}
+
+.align-items-center{
+  align-items: center;
 }
 
 .ms-2{
@@ -52,7 +60,6 @@
 }
 
 .logo-wraper{
-  height: 100px;
   width: 100px;
   display: flex;
   align-items: center;
@@ -63,12 +70,43 @@
   align-items: center;
 }
 
-.box-card{
-  height: 500px;
-  width: 500px;
+.nav-menu a:hover{
+  border-bottom: 5px solid rgb(212, 249, 252);
 }
 
-.box-card img{
+.container{
   height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+.box-card{
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  padding: 20px;
+  height: 300px;
+  width: 25%;
+  text-align: center;
+  box-shadow: 0px 0px 20px rgb(120, 233, 243);
+  transition: ease-in-out 0.5s;
+}
+
+.text-card{
+  overflow: auto;
+}
+
+.box-card .logo-wraper{
+  height: 100px;
   width: 100%;
+  align-items: flex-start;
+}
+
+.box-card:hover{
+  box-shadow: 0px 0px 50px rgb(120, 233, 243);
+  transition: ease-in-out 0.5s;
 }
