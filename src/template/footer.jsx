@@ -1,4 +1,4 @@
-import NavMenu from "../nav-menu";
+import NavMenu from "../components/nav";
 
 function Footer(){
   return(

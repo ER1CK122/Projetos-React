@@ -1,7 +1,7 @@
-import logo from '../../assets/images/logo.svg';
-import NavMenu from '../nav-menu';
+import logo from '../assets/images/logo.svg';
+import NavMenu from '../components/nav';
 
-function Nav(){
+function Header(){
   return(
     <nav className='d-flex w-100 nav'>
       <div className='logo-wraper'>
@@ -12,4 +12,4 @@ function Nav(){
   )
 }
 
-export default Nav;
+export default Header;

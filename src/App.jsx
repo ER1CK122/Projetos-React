@@ -1,15 +1,15 @@
 import './assets/css/main.css';
 import LogoGod from './assets/images/logoGod.png'
 import LogoAgencia from './assets/images/logoagência.png'
-import Nav from './components/template/nav';
-import Footer from './components/template/footer';
+import Header from './template/header';
+import Footer from './template/footer';
 
 function Main() {
   return (
     <>
-      <main className='vh-100'>
-        <Nav/>
+      <Header/>
 
+      <main className='vh-100'>
         <div className='container d-flex'>
           <div className='box-card'>
             <div className='logo-wraper'><a href="https://www.playstation.com/pt-br/god-of-war/" target={'_blank'} rel='noreferrer'><img src={LogoGod} alt="" /></a></div>
